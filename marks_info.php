@@ -7,11 +7,10 @@
     <meta property="og:image" content="assets/images/common/og-image.jpg">
     <link rel="stylesheet" href="assets/css/theme.min.css">
     <link rel="stylesheet" href="assets/css/utility.min.css">
-    <link rel="stylesheet" href="assets/css/demo/start-hub-1/base.css">
-    <link rel="stylesheet" href="assets/css/demo/start-hub-1/start-hub-1-contact.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&amp;family=Nunito:wght@400;600;700&amp;family=Roboto&amp;display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/demo/base.css">
+    <link rel="stylesheet" href="assets/css/demo/start-hub-1-contact.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&amp;family=Nunito:wght@400;600;700&amp;family=Roboto&amp;display=swap" rel="stylesheet">
     <title>Student Goal-Form</title>
 </head>
 
@@ -39,17 +38,13 @@
                     <div class="container module-container">
                         <div class="row">
                             <div class="col col-12 p-0 module-col">
-                                <div
-                                    class="w-full relative  bg-white rounded-10 transition-all shadow-md pt-60 px-70 pb-60 module-form">
-                                    <div
-                                        class="w-full relative justify-center flex flex-wrap items-center justify-between">
-                                        <div class="w-50percent relative pt-5 px-10 pb-10 sm:w-full">
-                                            <h2 class="ld-fh-element relative text-28 font-bold text-center" id="title">Set your
-                                                board exam goal </h2>
+                                <div class="w-full relative  bg-white rounded-10 transition-all shadow-md pt-60 px-70 pb-60 module-form">
+                                    <div class="w-full relative">
+                                        <div class="relative sm:w-full">
+                                            <h2 class="ld-fh-element relative text-28 font-bold text-start" id="title">Set your board exam goal </h2>
                                         </div>
                                     </div>
-                                    <div
-                                        class="lqd-contact-form lqd-contact-form-inputs-round lqd-contact-form-button-block lqd-contact-form-button-lg lqd-contact-form-button-round lqd-contact-form-button-border-none lqd-contact-form-inputs-lg p-10">
+                                    <div class="lqd-contact-form lqd-contact-form-inputs-round lqd-contact-form-button-block lqd-contact-form-button-lg lqd-contact-form-button-round lqd-contact-form-button-border-none lqd-contact-form-inputs-lg p-10 lqd-contact-form-inputs-md">
                                         <div role="form" class="lqd-cf mt-25" id="lqd-cf-form-contact" lang="en-US"
                                             dir="ltr">
                                             <div class="screen-reader-response">
@@ -131,7 +126,7 @@
                     content += `
                         <div class="col col-md-6 col-12 py-0 px-15">
                             <span class="lqd-form-control-wrap text">
-                                <label for="name">
+                                <label for="" class="label-responsive">
                                     <span class='subject-name'>${item.subject.toUpperCase()}</span>
                                     MARKS
                                 </label>
