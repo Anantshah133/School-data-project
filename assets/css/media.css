@@ -6,7 +6,7 @@
         display: none;
     }
     .lqd-contact-form-inputs-md input{
-        height: 40px;
+        height: 45px;
         font-size: 14px;
     }
     .py-2em{
@@ -23,5 +23,12 @@
     }
     .lqd-contact-form-button-lg input[type=submit]{
         height: 45px;
+    }
+    .titlebar-inner{
+        padding: 30px 10px;
+    }
+    .lqd-contact-form {
+        --input-margin-bottom: 10px;
+        --inputs-margin: 0 0 var(--input-margin-bottom) 0;
     }
 }
