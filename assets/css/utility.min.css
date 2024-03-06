@@ -11464,7 +11464,7 @@ input::placeholder {
 }
 
 .poster-middle {
-    padding: 70px 30px;
+    padding: 50px 30px;
 }
 
 .profile-photo {
@@ -11482,10 +11482,10 @@ input::placeholder {
 .profile-photo::before {
     content: "";
     position: absolute;
-    right: -20px;
-    bottom: -10px;
-    width: 420px;
-    height: 420px;
+    right: -8px;
+    bottom: -8px;
+    width: 400px;
+    height: 400px;
     z-index: 0;
     border-radius: 40px;
     background-color: black;
@@ -11520,16 +11520,19 @@ input::placeholder {
     border: 5px solid black;
     border-radius: 70px;
     position: relative;
-    padding: 30px;
+    padding-inline: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     z-index: 222;
+    background-color: white;
     box-shadow: 4px 4px 0px black;
 }
 
 .standard h2 {
-    font-size: 53px;
-    padding: 10px;
+    font-size: 40px;
+    padding-block: 10px;
+    padding-left: 60px;
     margin: 0;
-    text-align: center;
     font-weight: 700;
     color: black;
     letter-spacing: 4px;
@@ -11544,7 +11547,7 @@ input::placeholder {
     border-radius: 50%;
     position: absolute;
     left: 20px;
-    top: 43%;
+    top: 40%;
     z-index: 1;
     background-color: #32a842;
     border: 3px solid black;
@@ -11568,6 +11571,7 @@ input::placeholder {
     padding: 70px 30px;
     z-index: 222;
     box-shadow: 4px 4px 0px black;
+    background-color: white;
 }
 
 .standard2 h4 {
@@ -11609,14 +11613,18 @@ input::placeholder {
     border: 5px solid black;
     border-radius: 70px;
     position: relative;
-    padding: 30px;
+    padding-inline: 30px;
+    padding-top: 35px;
+    padding-bottom: 25px;
     z-index: 222;
     box-shadow: 4px 4px 0px black;
+    background-color: white;
 }
 
 .standard3 h2 {
-    font-size: 52px;
-    padding: 5px 52px;
+    font-size: 40px;
+    padding-block: 5px;
+    padding-left: 53px;
     margin: 0;
     font-weight: 700;
     color: black;
@@ -11653,9 +11661,12 @@ input::placeholder {
     border: 5px solid black;
     border-radius: 70px;
     position: relative;
-    padding: 70px 30px;
+    padding-inline: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     z-index: 222;
     box-shadow: 4px 4px 0px black;
+    background-color: white;
 }
 
 .standard4 h2 {
@@ -11709,12 +11720,12 @@ input::placeholder {
     color: black;
     text-transform: capitalize !important;
 }
-.marks-table tr{
+.marks-table tbody tr{
     border-bottom:5px solid black ;
 }
-.marks-table tr td{padding: 10px;}
+.marks-table tbody tr td{padding: 10px;}
 .bl-2{border-right: 5px solid black;}
-.marks-table tr:last-child{
+.marks-table tbody tr:last-child{
     border:none !important;
 }
 

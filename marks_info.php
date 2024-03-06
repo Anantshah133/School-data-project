@@ -53,8 +53,7 @@
                                             <form action="student_card.php" method="post" class="lqd-cf-form init">
                                                 <div class="row -mx-15 justify-center items-center" id="mainFormDiv"></div>
                                                 <div class="col col-12 py-0 px-0 mt-25">
-                                                    <input type="submit" value="Submit Form" id="submit"
-                                                        class="lqd-cf-form-control has-spinner lqd-cf-submit bg-sky-800 text-white">
+                                                    <input type="submit" value="Submit Form" id="submit" class="lqd-cf-form-control has-spinner lqd-cf-submit bg-sky-800 text-white">
                                                 </div>
                                                 <div class="lqd-cf-response-output" aria-hidden="true"></div>
                                             </form>
@@ -75,10 +74,10 @@
         let subjectFor10 = [
             {subject: "science", name: "science"},
             {subject: "maths", name: "maths"},
-            {subject: "social science", name: "social science"},
+            {subject: "social study", name: "social science"},
             {subject: "english", name: "english"},
             {subject: "gujarati", name: "gujarati"},
-            {subject: "sanskrit/hindi", name: "shindi"},
+            {subject: "sans/hindi", name: "shindi"},
         ];
 
         let subjectFor12 = {
@@ -87,17 +86,17 @@
                 {subject: "english", name: "english" },
                 {subject: "economics", name: "economics" },
                 {subject: "statistics", name: "statistics" },
-                {subject: "business administration", name: "ba" },
-                {subject: "elements of account", name: "accounts" },
-                {subject: "computer", name: "computer" }
+                {subject: "BA", name: "ba" },
+                {subject: "accounts", name: "accounts" },
+                // {subject: "computer", name: "computer" }
             ],
             sci: [
                 {subject: "english", name: "english"},
                 {subject: "gujarati", name: "gujarati"},
                 {subject: "physics", name: "physics"},
                 {subject: "chemistry", name: "chemistry"},
-                {subject: "biology/maths", name: "biomath"},
-                {subject: "computer", name: "computer"},
+                {subject: "bio/math", name: "biomath"},
+                // {subject: "computer", name: "computer"},
             ]
         }
 
@@ -159,7 +158,6 @@
                     const subjectObj = {subject, marks};
                     subjectWiseMarks.push(subjectObj);
                 })
-                
                 localStorage.setItem("studentMarks", JSON.stringify(subjectWiseMarks));
             })
         })
