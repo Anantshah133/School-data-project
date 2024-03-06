@@ -3,18 +3,22 @@
 } */
 
 
-.lora{
+.lora {
     font-family: "Marcellus", serif;
 }
-.slogan{
+
+.slogan {
     font-size: 22px;
 }
-.myborder{
+
+.myborder {
     border: 1px solid #ddd;
 }
-.slogans ul{
+
+.slogans ul {
     margin-left: 110px;
 }
+
 .lqd-fade-sides:not(.carousel-container) {
     mask-image: linear-gradient(to right, transparent 0%, #000 20%, #000 80%, transparent 100%);
     -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 20%, #000 80%, transparent 100%)
@@ -3336,6 +3340,7 @@
 .px-2em {
     padding-right: 2em
 }
+
 .py-2em {
     padding: 11px 0em;
 }
@@ -11251,109 +11256,147 @@
         margin-left: 0
     }
 }
-.file-upload
-{
+
+.file-upload {
     margin-left: 20px;
 }
+
 input[type="file"]::file-selector-button {
     border: 1px solid rgba(0, 0, 0, .1) !important;
     border: none;
     padding: 0.2em 0.4em;
     border-radius: 0.2em;
-    background-color:transparent;
+    background-color: transparent;
     transition: 1s;
-  }
+}
+
 input[type="file"]::file-selector-button:hover {
     border: 1px solid rgba(0, 0, 0, .1) !important;
     border: none;
     padding: 0.2em 0.4em;
     border-radius: 0.2em;
-    background-color:#104662;
+    background-color: #104662;
     color: white;
-    transition: 0.4s linear all; 
-  } 
-  input::placeholder{
+    transition: 0.4s linear all;
+}
+
+input::placeholder {
     opacity: 0.3;
-  }
-  
-.profile{text-align: end;}
-.profile-heading h1{  
-    font-size:30px !important;
+}
+
+.profile {
+    text-align: end;
+}
+
+.profile-heading h1 {
+    font-size: 30px !important;
     z-index: 1;
     font-family: "Epilogue", sans-serif;
 }
-.profile-heading {  
+
+.profile-heading {
     text-align: center;
 }
-.profile-head{
+
+.profile-head {
     padding-left: 110px;
     padding-right: 110px;
 }
-.down-btn{
+
+.down-btn {
     width: 400px;
     padding: 10px;
     background-color: #104662;
     color: white;
 }
-  .profile img{
+
+.profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
-  }
-.profile-head{align-items: center;}
-.divide{
+}
+
+.profile-head {
+    align-items: center;
+}
+
+.divide {
     padding-right: 20px;
 }
+
 .title-shape {
     position: absolute;
     left: 47%;
     z-index: -1;
-    top:-10px;
+    top: -10px;
 }
-.goal{
+
+.goal {
     margin-top: 20px;
     margin-bottom: 20px;
-   text-align: center   ;
+    text-align: center;
 }
-.float{
+
+.float {
     position: absolute;
-    left:20%;
+    left: 20%;
     top: 40%;
 }
 
-.epi-family{   font-family: "Epilogue", sans-serif !important;}
-.marks-heading{
+.epi-family {
+    font-family: "Epilogue", sans-serif !important;
+}
+
+.marks-heading {
     text-transform: none;
     font-size: 20px;
     color: white !important;
 }
-.marks-heading2{
+
+.marks-heading2 {
     text-transform: none;
     font-size: 20px;
     font-weight: 700;
     color: #333333 !important;
 }
-.goal-table tbody tr{
+
+.goal-table tbody tr {
     color: #333333;
     background-color: #ebf3f9 !important;
 }
 
 
 
-.goal-table>tbody>tr{border: 1px solid #ddd !important;}
+.goal-table>tbody>tr {
+    border: 1px solid #ddd !important;
+}
+
 /* .goal-table>thead>tr{border: 1px solid #ddd !important;} */
 
-.goal-table tr th:nth-child(1){border-top-left-radius: 5px;}
-.goal-table tr th:last-child{border-top-right-radius: 5px;}
-.goal-table tr td:nth-child(1){border-bottom-left-radius: 5px;}
-.goal-table tr td:last-child{border-bottom-right-radius: 5px;}
+.goal-table tr th:nth-child(1) {
+    border-top-left-radius: 5px;
+}
 
-.ptb-50{
+.goal-table tr th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.goal-table tr td:nth-child(1) {
+    border-bottom-left-radius: 5px;
+}
+
+.goal-table tr td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.ptb-50 {
     border: 1px solid #ddd;
-    padding: 50px 0px;}
-.goal-table{
+    padding: 50px 0px;
+}
+
+.goal-table {
     text-align: center;
     border-radius: 10px;
     width: 80%;
@@ -11362,17 +11405,350 @@ input[type="file"]::file-selector-button:hover {
 }
 
 @media (max-width:768px) {
-    .float{
+    .float {
         display: none;
     }
-    .profile-head{padding: 50px 0px;}
-    .slogans ul{margin: 10px;}
-    .slogan{font-size: 18px;}
-    .profile{
+
+    .profile-head {
+        padding: 50px 0px;
+    }
+
+    .slogans ul {
+        margin: 10px;
+    }
+
+    .slogan {
+        font-size: 18px;
+    }
+
+    .profile {
         margin-top: 20px;
-        text-align: center;}
-    .profile-table{
-        margin:auto;
-        width: 500px;}
-    
+        text-align: center;
+    }
+
+    .profile-table {
+        margin: auto;
+        width: 500px;
+    }
+
+}
+
+/* student design */
+.poster {
+    margin: auto;
+    width: 1080px;
+    /* height: 1920px; */
+    background-color: #e66c6c;
+    padding: 20px;
+}
+
+.poster-section {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.poster-heading {
+    border-bottom: 2px solid black;
+    padding: 15px 30px;
+}
+
+.poster-heading h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 50px !important;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.poster-middle {
+    padding: 70px 30px;
+}
+
+.profile-photo {
+    position: relative;
+    width: 400px;
+}
+
+.profile-photo img {
+    border-radius: 40px;
+    object-fit: cover;
+    position: relative;
+    border: 5px solid black;
+}
+
+.profile-photo::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: -10px;
+    width: 420px;
+    height: 420px;
+    z-index: 0;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.profile-name h1 {
+    font-size: 80px;
+    color: black;
+    font-weight: 700;
+}
+
+.student-info {
+    border-radius: 100px;
+    border: 3px solid black;
+    background-color: #32a842;
+    margin-top: 30px;
+}
+
+.student-info h4 {
+    font-size: 23px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.standard {
+    margin-top: 50px;
+    border: 5px solid black;
+    border-radius: 70px;
+    position: relative;
+    padding: 30px;
+    z-index: 222;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard h2 {
+    font-size: 53px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.standard h2::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 43%;
+    z-index: 1;
+    background-color: #32a842;
+    border: 3px solid black;
+}
+
+.badge {
+    top: 0;
+    font-size: 30px !important;
+    border: 3px solid black;
+    left: 32%;
+    z-index: 111111;
+    padding: 15px 50px !important;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard2 {
+    margin-top: 70px;
+    border: 5px solid black;
+    border-radius: 70px;
+    position: relative;
+    padding: 70px 30px;
+    z-index: 222;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard2 h4 {
+    font-size: 33px;
+    padding: 5px 60px;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    text-transform: none;
+    position: relative;
+}
+
+.standard2>h4::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 35%;
+    z-index: 1;
+    background-color: #000000;
+    border: 3px solid black;
+    text-transform: none;
+}
+
+.standard2>.badge {
+    top: 0;
+    left: 50%;
+    font-size: 30px !important;
+    border: 3px solid black;
+    z-index: 111111;
+    padding: 15px 50px !important;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard3 {
+    margin-top: 50px;
+    border: 5px solid black;
+    border-radius: 70px;
+    position: relative;
+    padding: 30px;
+    z-index: 222;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard3 h2 {
+    font-size: 52px;
+    padding: 5px 52px;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.standard3>h2::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 35%;
+    z-index: 1;
+    background-color: #32a842;
+    border: 3px solid black;
+    text-transform: none;
+}
+
+.standard3>.badge {
+    top: 0;
+    left: 26%;
+    font-size: 30px !important;
+    border: 3px solid black;
+    z-index: 111111;
+    padding: 15px 50px !important;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard4 {
+    margin-top: 50px;
+    border: 5px solid black;
+    border-radius: 70px;
+    position: relative;
+    padding: 70px 30px;
+    z-index: 222;
+    box-shadow: 4px 4px 0px black;
+}
+
+.standard4 h2 {
+    font-size: 48px;
+    padding: 5px 64px;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.standard4>h2::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 35%;
+    z-index: 1;
+    background-color: #32a842;
+    border: 3px solid black;
+    text-transform: none;
+}
+
+.standard4>.badge {
+    top: 0;
+    left: 50%;
+    font-size: 30px !important;
+    border: 3px solid black;
+    z-index: 111111;
+    padding: 15px 50px !important;
+    box-shadow: 4px 4px 0px black;
+}
+
+/* .standard4::after {
+    content: "";
+    position: absolute;
+    right: 155px;
+    top: 65px;
+    width: 5px;
+    height: 60%;
+    z-index: 1;
+    background-color: black;
+} */
+
+.marks {
+    font-size: 35px !important;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize !important;
+}
+.marks-table tr{
+    border-bottom:5px solid black ;
+}
+.marks-table tr td{padding: 10px;}
+.bl-2{border-right: 5px solid black;}
+.marks-table tr:last-child{
+    border:none !important;
+}
+
+.poster{overflow: hidden;}
+.poster svg{
+    position: absolute;
+    width: 300px;
+    right: -100px;
+    top: -100px;
+    z-index: 0;
+}
+.actual-marks {
+    position: absolute;
+    right: 15px;
+    top: 45px;
+    font-size: 50px !important;
+    color: white;
+    transform: rotate(30deg);
+}
+.confetti{
+    position: absolute;
+    right: -70px;
+    top: 24.5%;
+  
+}
+.confetti img{
+    width: 200px;
+}
+.star{
+    position: absolute;
+    left: 0px;
+    top:60%;
+  
+}
+.star img{
+    width: 60px;
 }
