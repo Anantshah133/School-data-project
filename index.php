@@ -65,6 +65,7 @@ function uploadImage($inputName, $uploadDirectory){
     <link rel="stylesheet" href="assets/css/theme.min.css">
     <link rel="stylesheet" href="assets/css/utility.min.css">
     <link rel="stylesheet" href="assets/css/demo/base.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/demo/start-hub-1-contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -105,7 +106,7 @@ function uploadImage($inputName, $uploadDirectory){
                                             </h2>
                                         </div>
                                         <div class="w-50percent relative text-end pr-40 sm:w-full sm:text-start"><img
-                                                class="w-60" width="100" height="100"
+                                                class="w-60 plane-img" width="100" height="100"
                                                 src="assets/images/shape-plane.svg"
                                                 alt="plane"></div>
                                     </div>
@@ -120,7 +121,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                 <div class="row -mx-15">
                                                     <div class="col col-md-6 col-12 py-0 px-15"><span
                                                             class="lqd-form-control-wrap text">
-                                                            <label for="name">Student Name <span
+                                                            <label class="label-responsive" for="name">Student Name <span
                                                                     class="optional">(વિદ્યાર્થીનું પૂરું
                                                                     નામ)</span></label>
                                                             <input type="text" name="studentName" size="30" id="stdName"
@@ -129,7 +130,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                     </div>
                                                     <div class="col col-md-6 col-12 py-0 px-15"><span
                                                             class="lqd-form-control-wrap text">
-                                                            <label for="name">School Name <span
+                                                            <label class="label-responsive" for="name">School Name <span
                                                                     class="optional">(શાળાનું નામ)</span></label>
                                                             <input type="text" name="studentSchool" size="30"
                                                                 id="school" class="lqd-cf-form-control border-1 border-black-10 rounded-4 px-2em text-16 text-slate-700"
@@ -138,7 +139,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                     </div>
                                                     <div class="col col-md-6 col-12 py-0 px-15"><span
                                                             class="lqd-form-control-wrap tel-969">
-                                                            <label for="ContactNumber">Student Contact Number <span
+                                                            <label class="label-responsive" for="ContactNumber">Student Contact Number <span
                                                                     class="optional">(વિદ્યાર્થી સંપર્ક
                                                                     નંબર)</span></label>
                                                             <input type="tel" name="studentContact" size="30"
@@ -149,7 +150,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                                 placeholder="8899776688" required></span></div>
                                                     <div class="col col-md-6 col-12 py-0 px-15"><span
                                                             class="lqd-form-control-wrap tel-969">
-                                                            <label for="ContactNumber">Father Contact Number <span
+                                                            <label class="label-responsive" for="ContactNumber">Father Contact Number <span
                                                                     class="optional">(પિતાનો સંપર્ક નંબર)</span></label>
                                                             <input type="tel" name="stdFatherContact" size="30"
                                                                 maxlength="10" id="fatherNum"
@@ -159,7 +160,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                                 placeholder="8899776688" required></span></div>
                                                     <div class="col col-md-6 col-12 py-0 px-15"><span
                                                             class="lqd-form-control-wrap tel-969">
-                                                            <label for="ContactNumber">Upload Photo / Selfie</label>
+                                                            <label class="label-responsive" for="ContactNumber">Upload Photo / Selfie</label>
                                                             <div class="qd-cf-form-control border-1 border-black-10 rounded-4 py-2em">
                                                                 <input type="file" capture="environment" id="stImg"
                                                                     accept="image/*" name="studentImg"
@@ -170,27 +171,25 @@ function uploadImage($inputName, $uploadDirectory){
                                                         </span></div>
                                                     <div class="col col-md-6 col-12 py-0 px-15">
                                                         <span class="lqd-form-control-wrap text">
-                                                            <label for="">Student Gender <span
+                                                            <label class="label-responsive" for="">Student Gender <span
                                                                     class="optional">(વિદ્યાર્થી લિંગ)</span></label>
                                                             <div class="flex items-center mt-10">
                                                                 <div class="mr-15">
                                                                     <input type="radio" value="male" id="male"
                                                                         class="mr-5" name="studentGender">
-                                                                    <label for="male"
-                                                                        class="cursor-pointer">Male</label>
+                                                                    <label for="male" class="cursor-pointer gender-input">Male</label>
                                                                 </div>
                                                                 <div>
                                                                     <input type="radio" value="female" id="female"
                                                                         class="mr-5" name="studentGender">
-                                                                    <label for="female"
-                                                                        class="cursor-pointer">Female</label>
+                                                                    <label for="female" class="cursor-pointer gender-input">Female</label>
                                                                 </div>
                                                             </div>
                                                         </span>
                                                     </div>
                                                     <div class="col col-md-6 col-12 py-0 px-15">
                                                         <span class="lqd-form-control-wrap text">
-                                                            <label for="name">Student Standard <span
+                                                            <label class="label-responsive" for="name">Student Standard <span
                                                                     class="optional">(વિદ્યાર્થિ નુ ધોરણ)</span></label>
                                                             <select name="studentStd" id="studentStd"
                                                                 onchange="getStream(this.value, 'stream')"
@@ -204,7 +203,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                     </div>
                                                     <div class="col col-md-6 col-12 py-0 px-15 hidden" id="stream">
                                                         <span class="lqd-form-control-wrap text">
-                                                            <label for="">Student Stream <span class="optional">(શિક્ષણ
+                                                            <label class="label-responsive" for="">Student Stream <span class="optional">(શિક્ષણ
                                                                     પ્રવાહ)</span></label>
                                                             <div class="flex items-center mt-10">
                                                                 <div class="mr-15">
