@@ -1,8 +1,8 @@
 <?php
+session_start();
 include "./db_connect.php";
 $obj = new DB_Connect();
 error_reporting(E_ALL);
-session_start();
 
 if (isset($_REQUEST['save'])) {
     $name = $_REQUEST['studentName'];

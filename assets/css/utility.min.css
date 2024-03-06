@@ -11662,7 +11662,7 @@ input::placeholder {
     border-radius: 70px;
     position: relative;
     padding-inline: 30px;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-bottom: 10px;
     z-index: 222;
     box-shadow: 4px 4px 0px black;
@@ -11671,6 +11671,7 @@ input::placeholder {
 
 .standard4 h2 {
     font-size: 48px;
+    text-align: center;
     padding: 5px 64px;
     margin: 0;
     font-weight: 700;
@@ -11694,11 +11695,13 @@ input::placeholder {
 }
 
 .standard4>.badge {
-    top: 0;
-    left: 50%;
+    /* top: 0;
+    left: 50%; */
+    margin-bottom: 15px;
+    display: block;
     font-size: 30px !important;
     border: 3px solid black;
-    z-index: 111111;
+    /* z-index: 111111; */
     padding: 15px 50px !important;
     box-shadow: 4px 4px 0px black;
 }
