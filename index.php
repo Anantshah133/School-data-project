@@ -162,13 +162,10 @@ function uploadImage($inputName, $uploadDirectory){
                                                             class="lqd-form-control-wrap tel-969">
                                                             <label class="label-responsive" for="ContactNumber">Upload Photo / Selfie</label>
                                                             <div class="qd-cf-form-control border-1 border-black-10 rounded-4 py-2em">
-                                                                <input type="file" capture="environment" id="stImg"
-                                                                    accept="image/*" name="studentImg"
-                                                                    class="file-upload  lqd-cf-form-control
-                                                                 border-1 border-black-10 rounded-4 px-2em text-16 text-slate-700" aria-required="true"
-                                                                    aria-invalid="false" required>
+                                                                <input type="file" id="stImg" accept="image/*" name="studentImg" class="file-upload  lqd-cf-form-control border-1 border-black-10 rounded-4 px-2em text-16 text-slate-700" aria-required="true" aria-invalid="false" required>
                                                             </div>
-                                                        </span></div>
+                                                        </span>
+                                                    </div>
                                                     <div class="col col-md-6 col-12 py-0 px-15">
                                                         <span class="lqd-form-control-wrap text">
                                                             <label class="label-responsive" for="">Student Gender <span
@@ -291,6 +288,8 @@ function uploadImage($inputName, $uploadDirectory){
                 radioDiv.classList.add("hidden");
                 sciRadio.required = false;
                 comRadio.required = false;
+                sciRadio.checked = false;
+                comRadio.checked = false;
             }
         }
     </script>

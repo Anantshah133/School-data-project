@@ -25,10 +25,10 @@
         height: 45px;
     }
     .titlebar-inner{
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
     .lqd-contact-form {
-        --input-margin-bottom: 10px;
+        --input-margin-bottom: 6px;
         --inputs-margin: 0 0 var(--input-margin-bottom) 0;
     }
 }
