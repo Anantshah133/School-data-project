@@ -168,8 +168,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                     </div>
                                                     <div class="col col-md-6 col-12 py-0 px-15">
                                                         <span class="lqd-form-control-wrap text">
-                                                            <label class="label-responsive" for="">Student Gender <span
-                                                                    class="optional">(વિદ્યાર્થી લિંગ)</span></label>
+                                                            <label class="label-responsive" for="">Student Gender</label>
                                                             <div class="flex items-center mt-10">
                                                                 <div class="mr-15">
                                                                     <input type="radio" value="male" id="male"
@@ -192,7 +191,7 @@ function uploadImage($inputName, $uploadDirectory){
                                                                 onchange="getStream(this.value, 'stream')"
                                                                 class=" lqd-cf-form-control border-1 border-black-10 rounded-4 px-1em text-16 text-slate-700"
                                                                 aria-required="true" aria-invalid="false" required >
-                                                                <option>Select Standard</option>
+                                                                <option value="">Select Standard</option>
                                                                 <option value="10">Std 10th</option>
                                                                 <option value="12">Std 12th</option>
                                                             </select>

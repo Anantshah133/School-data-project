@@ -59,7 +59,9 @@ $obj = new DB_Connect();
                             
                             <div class="col-11">
                                 <div class="standard4">
-                                    <span class="poppins badge rounded-pill bg-danger">MY GOAL</span>
+                                    <span class="poppins badge rounded-pill bg-danger">MY GOAL
+                                        <span class="visually-hidden">unread messages</span>
+                                      </span>
                                       <table class="w-100 marks-table"  id="myTable">
                                         <tr id="after-table">
                                             <td  class="w-75 bl-2"><h3 class="poppins marks  text-start ">Subject</h3></td>
@@ -73,9 +75,9 @@ $obj = new DB_Connect();
                     <div class="profile-name">
                         <h1 id="student-name">BHAVIN MADHANI</h1>
                         <div class="student-info"><h4 >I CAN DO IT...</h4></div>
-                        <div class="standard position-relative">
+                        <div class="standard position-relative ">
                             <h2 class="poppins position-relative" id="student-education">10 TH STD</h2>
-                            <span class=" poppins badge rounded-pill bg-danger">Education
+                            <span class=" poppins position-absolute translate-middle badge rounded-pill bg-danger">Education
                                 <span class="visually-hidden">unread messages</span>
                               </span>
                         </div>

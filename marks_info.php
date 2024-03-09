@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assets/css/utility.min.css">
     <link rel="stylesheet" href="assets/css/demo/base.css">
     <link rel="stylesheet" href="assets/css/demo/start-hub-1-contact.css">
-    <link rel="stylesheet" href="assets/css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&amp;family=Nunito:wght@400;600;700&amp;family=Roboto&amp;display=swap" rel="stylesheet">
     <title>Student Goal-Form</title>
 </head>
